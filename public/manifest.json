@@ -1,6 +1,6 @@
 {
-  "short_name": "Resume",
-  "name": "Resume Bartosz Kwiatek",
+  "short_name": "Learning App",
+  "name": "Learning app",
   "icons": [],
   "start_url": ".",
   "display": "standalone",
