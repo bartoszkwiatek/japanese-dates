@@ -1,23 +1,30 @@
 import { TextField } from "@material-ui/core"
-import { useState } from "react";
+import { createRef, useContext, useEffect, useState } from "react";
 import * as wanakana from 'wanakana';
+import { StoreContext } from "./Store";
 
 
 const InputField = () => {
-  const [value, setValue] = useState('');
-  wanakana.bind(document.getElementById("answer-input"), { IMEMode: true })
+  const data = useContext(StoreContext).data
+  const setData = useContext(StoreContext).setData
+  const reference = createRef();
+
+  // console.log(data, setData)
+  console.log(wanakana.toKana('G'))
   const inputChange = (event) => {
-
-    setValue(event.target.value);
-    console.log(value)
+    console.log(data)
+    const newData = { ...data, inputValue: wanakana.toKana(event.target.value) }
+    setData(newData);
   }
-
   return (
+
+
     <TextField
       id="answer-input"
       variant="outlined"
-      value={value}
+      value={data.inputValue}
       onChange={inputChange}
+      ref={reference}
     >
 
     </TextField>

@@ -13,13 +13,15 @@ import InputField from './InputField';
 function App() {
   // const [error, setError] = useState(null);
   // const [isLoaded, setIsLoaded] = useState(false);
-  const [data, setData] = useState({});
+  const [data, setData] = useState({ inputValue: 'trololo', dictionary: {} });
   const [language, setLanguage] = useState('en');
   const [darkMode, setDarkMode] = useState(false);
   const [primaryColor, setPrimaryColor] = useState('#e91e63');
   const classes = styles();
   const theme = Theme(darkMode, primaryColor);
-  const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');   // check prefered user mode 
+  const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
+
+  // check prefered user mode 
   useEffect(() => {
     setDarkMode(prefersDarkMode)
 
@@ -47,7 +49,7 @@ function App() {
   return (
     <React.Fragment>
       <StoreContext.Provider
-        value={{ data, language, darkMode, setDarkMode, setLanguage, setPrimaryColor }}>
+        value={{ data, setData, language, darkMode, setDarkMode, setLanguage, setPrimaryColor }}>
         <ThemeProvider theme={theme}>
           <CssBaseline />
           <Container maxWidth="md">
@@ -82,6 +84,7 @@ function App() {
                   <Button
                     variant="contained"
                     size="large"
+                    onClick={() => console.log(data)}
                   >
                     Check
                 </Button>
