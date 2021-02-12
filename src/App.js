@@ -95,9 +95,9 @@ function App() {
                     variant="contained"
                     classes={{ root: classes.correct }}
                     size="large"
-
+                    onClick={() => setData({ inputValue: '' })}
                   >
-                    Next
+                    Reset
                   </Button>
                 </Grid>
               </Grid>
