@@ -1,9 +1,7 @@
-import { Grid, Input, TextField } from "@material-ui/core"
-import { createRef, useContext, useEffect, useState } from "react";
-import { StoreContext } from "./Store";
-import WanakanaInput from "./WanakanaInput";
-import React from 'react';
+import { Grid, TextField } from "@material-ui/core";
+import React, { useContext } from 'react';
 import KanaInput from "./KanaInput";
+import { StoreContext } from "./Store";
 
 
 const InputField = () => {
@@ -12,7 +10,7 @@ const InputField = () => {
 
   // console.log(data, setData)
   const inputChange = (event) => {
-    console.log(data)
+    // console.log(data)
     const newData = { ...data, inputValue: event.target.value }
     setData(newData);
   }
@@ -26,19 +24,6 @@ const InputField = () => {
         alignItems="center"
         spacing={2}
       >
-        <Grid item>
-          <TextField
-            id="answer-input"
-            variant="outlined"
-            value={data.inputValue}
-            onChange={inputChange}
-          >
-          </TextField>
-        </Grid>
-
-        <Grid item>
-          <WanakanaInput name="" value={data.inputValue} onChange={inputChange}></WanakanaInput>
-        </Grid>
 
         <Grid item>
           <KanaInput name="" value={data.inputValue} onChange={inputChange}>
@@ -52,9 +37,12 @@ const InputField = () => {
         </Grid>
 
         <Grid item>
-          <KanaInput name="" value={data.inputValue} onChange={inputChange}>
+          {/* <KanaInput
+            name=""
+            value={data.inputValue}
+            onChange={inputChange}>
             <input></input>
-          </KanaInput>
+          </KanaInput> */}
         </Grid>
       </Grid>
 

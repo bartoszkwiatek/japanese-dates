@@ -20,6 +20,7 @@ const KanaInput = ({ component, value, to, onChange, ...props }) => {
   const inputRef = useRef(null);
   const [parsedValue, setValue] = useState(translateValue(value, to));
   const handleChange = e => {
+    console.log(e.target.value)
     const updatedValue = translateValue(e.target.value, to);
     setValue(updatedValue);
     inputRef.current.value = updatedValue;
@@ -30,7 +31,7 @@ const KanaInput = ({ component, value, to, onChange, ...props }) => {
   return (
     <React.Fragment>
       {React.cloneElement(props.children, {
-        ref: inputRef,
+        inputRef: inputRef,
         value: parsedValue,
         onChange: handleChange,
       })}

@@ -9,6 +9,8 @@ import { Sidebar } from './Sidebar';
 import { StoreContext } from './Store';
 import { Theme } from './Theme';
 import InputField from './InputField';
+import { toHiragana, toKana } from 'wanakana';
+import { TodayRounded } from '@material-ui/icons';
 
 function App() {
   // const [error, setError] = useState(null);
@@ -20,6 +22,14 @@ function App() {
   const classes = styles();
   const theme = Theme(darkMode, primaryColor);
   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
+
+  const today = new Date().toLocaleString('ja-JP',
+    {
+      // year: 'numeric',
+      weekday: 'long',
+      month: 'long',
+      day: 'numeric'
+    })
 
   // check prefered user mode 
   useEffect(() => {
@@ -63,7 +73,7 @@ function App() {
               >
                 <Grid item>
                   <Typography variant="h3">
-                    15.06
+                    {today}
                   </Typography>
                 </Grid>
                 <Divider
