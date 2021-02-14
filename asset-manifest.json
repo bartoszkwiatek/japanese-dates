@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/kwiaciu/japanese-dates/static/css/main.2e7919c8.chunk.css",
-    "main.js": "/kwiaciu/japanese-dates/static/js/main.5141baf4.chunk.js",
-    "main.js.map": "/kwiaciu/japanese-dates/static/js/main.5141baf4.chunk.js.map",
-    "runtime-main.js": "/kwiaciu/japanese-dates/static/js/runtime-main.89cfe7f9.js",
-    "runtime-main.js.map": "/kwiaciu/japanese-dates/static/js/runtime-main.89cfe7f9.js.map",
-    "static/js/2.6da9165e.chunk.js": "/kwiaciu/japanese-dates/static/js/2.6da9165e.chunk.js",
-    "static/js/2.6da9165e.chunk.js.map": "/kwiaciu/japanese-dates/static/js/2.6da9165e.chunk.js.map",
-    "index.html": "/kwiaciu/japanese-dates/index.html",
-    "static/css/main.2e7919c8.chunk.css.map": "/kwiaciu/japanese-dates/static/css/main.2e7919c8.chunk.css.map",
-    "static/js/2.6da9165e.chunk.js.LICENSE.txt": "/kwiaciu/japanese-dates/static/js/2.6da9165e.chunk.js.LICENSE.txt"
+    "main.css": "/japanese-dates/static/css/main.2e7919c8.chunk.css",
+    "main.js": "/japanese-dates/static/js/main.d447a544.chunk.js",
+    "main.js.map": "/japanese-dates/static/js/main.d447a544.chunk.js.map",
+    "runtime-main.js": "/japanese-dates/static/js/runtime-main.f19c4ffb.js",
+    "runtime-main.js.map": "/japanese-dates/static/js/runtime-main.f19c4ffb.js.map",
+    "static/js/2.6da9165e.chunk.js": "/japanese-dates/static/js/2.6da9165e.chunk.js",
+    "static/js/2.6da9165e.chunk.js.map": "/japanese-dates/static/js/2.6da9165e.chunk.js.map",
+    "index.html": "/japanese-dates/index.html",
+    "static/css/main.2e7919c8.chunk.css.map": "/japanese-dates/static/css/main.2e7919c8.chunk.css.map",
+    "static/js/2.6da9165e.chunk.js.LICENSE.txt": "/japanese-dates/static/js/2.6da9165e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.89cfe7f9.js",
+    "static/js/runtime-main.f19c4ffb.js",
     "static/js/2.6da9165e.chunk.js",
     "static/css/main.2e7919c8.chunk.css",
-    "static/js/main.5141baf4.chunk.js"
+    "static/js/main.d447a544.chunk.js"
   ]
 }
