@@ -1,16 +1,15 @@
-import { Button, CssBaseline, Divider, Grid, Input, Paper, TextField, Typography, useMediaQuery } from '@material-ui/core';
+import { Button, CssBaseline, Divider, Grid, Paper, Typography, useMediaQuery } from '@material-ui/core';
 import Container from '@material-ui/core/Container';
 import { ThemeProvider } from '@material-ui/core/styles';
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import { styles } from './styles';
+import { DictionaryTable } from './DictionaryTable';
+import InputField from './InputField';
 import { ModeSwitch } from './ModeSwitch';
 import { Sidebar } from './Sidebar';
 import { StoreContext } from './Store';
+import { styles } from './styles';
 import { Theme } from './Theme';
-import InputField from './InputField';
-import { toHiragana, toKana } from 'wanakana';
-import { TodayRounded } from '@material-ui/icons';
 
 function App() {
   // const [error, setError] = useState(null);
@@ -30,6 +29,10 @@ function App() {
       month: 'long',
       day: 'numeric'
     })
+
+
+  const dictionary = {}
+
 
   // check prefered user mode 
   useEffect(() => {
@@ -112,8 +115,7 @@ function App() {
                 </Grid>
               </Grid>
             </Paper>
-
-
+            <DictionaryTable></DictionaryTable>
           </Container>
           <Sidebar>
 

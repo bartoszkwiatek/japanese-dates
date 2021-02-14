@@ -1,0 +1,1 @@
+export const page5table1 = {"1 (styczeń)": "いちがつ", "2 (luty)": "にがつ", "3 (marzec)": "さんがつ", "4 (kwiecień)": "しがつ", "5 (maj)": "ごがつ", "6 (czerwiec)": "ろくがつ", "7 (lipiec)": "しちがつ", "8 (sierpień)": "はちがつ", "9 (wrzesień)": "くがつ", "10 (październik)": "じゅうがつ", "11 (listopad)": "じゅういちがつ", "12 (grudzień)": "じゅうにがつ"}
