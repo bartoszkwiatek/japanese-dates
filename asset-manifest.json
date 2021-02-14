@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/kwiaciu/japanese-dates.git/static/css/main.2e7919c8.chunk.css",
-    "main.js": "/kwiaciu/japanese-dates.git/static/js/main.2fb32672.chunk.js",
-    "main.js.map": "/kwiaciu/japanese-dates.git/static/js/main.2fb32672.chunk.js.map",
-    "runtime-main.js": "/kwiaciu/japanese-dates.git/static/js/runtime-main.8711098b.js",
-    "runtime-main.js.map": "/kwiaciu/japanese-dates.git/static/js/runtime-main.8711098b.js.map",
-    "static/js/2.6da9165e.chunk.js": "/kwiaciu/japanese-dates.git/static/js/2.6da9165e.chunk.js",
-    "static/js/2.6da9165e.chunk.js.map": "/kwiaciu/japanese-dates.git/static/js/2.6da9165e.chunk.js.map",
-    "index.html": "/kwiaciu/japanese-dates.git/index.html",
-    "static/css/main.2e7919c8.chunk.css.map": "/kwiaciu/japanese-dates.git/static/css/main.2e7919c8.chunk.css.map",
-    "static/js/2.6da9165e.chunk.js.LICENSE.txt": "/kwiaciu/japanese-dates.git/static/js/2.6da9165e.chunk.js.LICENSE.txt"
+    "main.css": "/kwiaciu/japanese-dates/static/css/main.2e7919c8.chunk.css",
+    "main.js": "/kwiaciu/japanese-dates/static/js/main.5141baf4.chunk.js",
+    "main.js.map": "/kwiaciu/japanese-dates/static/js/main.5141baf4.chunk.js.map",
+    "runtime-main.js": "/kwiaciu/japanese-dates/static/js/runtime-main.89cfe7f9.js",
+    "runtime-main.js.map": "/kwiaciu/japanese-dates/static/js/runtime-main.89cfe7f9.js.map",
+    "static/js/2.6da9165e.chunk.js": "/kwiaciu/japanese-dates/static/js/2.6da9165e.chunk.js",
+    "static/js/2.6da9165e.chunk.js.map": "/kwiaciu/japanese-dates/static/js/2.6da9165e.chunk.js.map",
+    "index.html": "/kwiaciu/japanese-dates/index.html",
+    "static/css/main.2e7919c8.chunk.css.map": "/kwiaciu/japanese-dates/static/css/main.2e7919c8.chunk.css.map",
+    "static/js/2.6da9165e.chunk.js.LICENSE.txt": "/kwiaciu/japanese-dates/static/js/2.6da9165e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8711098b.js",
+    "static/js/runtime-main.89cfe7f9.js",
     "static/js/2.6da9165e.chunk.js",
     "static/css/main.2e7919c8.chunk.css",
-    "static/js/main.2fb32672.chunk.js"
+    "static/js/main.5141baf4.chunk.js"
   ]
 }
